@@ -1,0 +1,68 @@
+.header{  
+    min-width: 1920px;
+    height: 100px;
+    border: 1px solid rgba(152, 147, 147, 0.21);
+    display: grid;  
+    grid-template-columns:minmax(100px, 314px) minmax(100px, auto) ;
+    grid-template-rows: 100px;
+    
+    &__logo{ 
+        margin-left: 360px;
+        border: 1px;
+        width: 315px;
+        height: 100px;
+        border: 1px solid rgba(152, 147, 147, 0.21);
+        border-bottom: none;
+    } 
+
+        .header__corner_left_top{ 
+            margin-top: -60px;
+            width: 7px;
+            height: 7px;
+            border:1px white;   
+            border-image: slice 10%; 
+            background-origin: border-box;
+            background-clip: content-box, border-box;     
+        }
+
+        .header__corner_right_top{   
+            margin-left: 308px;
+            margin-top:  -99px;;
+            width: 7px;
+            height: 7px;
+            border:1px white;           
+        }
+
+        .header__corner_left_bottom{
+            margin-top:  85px;
+            width: 7px;
+            height: 7px;
+            border:1px white;           
+        }
+
+        .header__corner_right_bottom{
+            margin-top:  85px;
+            margin-left: 308px;
+            width: 7px;
+            height: 7px;
+            border:1px white;           
+        }
+
+        img{  
+            margin-top: 26px;
+            margin-left: 26px;
+            width: 274px;
+            height: 34px;    
+        }
+        
+    }
+
+// .header__figure{
+//             border-style: solid;
+//             border-width: 1px;
+//             border:1px white;   
+//             border-image: slice 10%; 
+//             border-image-slice: 1;
+//             background-origin: border-box;
+//             background-clip: content-box, border-box;
+// }

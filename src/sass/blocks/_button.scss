@@ -1,0 +1,22 @@
+.btn__start{
+    margin-top: 50px;
+    width: 180px;
+    height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(189.0deg, #263e66 20%, #09213d 40%, #111f2d 61%, #23599c 79%);
+    border-image-slice: 1;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-background-clip: text;
+    opacity: 0.65;
+    cursor: pointer;
+        span{
+            font-family: 'Museo Sans Cyrl';
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 100;
+            color: #ffffff;
+        }
+}
+
