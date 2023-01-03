@@ -1,6 +1,6 @@
 # SpaceX
-SpaceX
-Практика_Демо
-HTML
-SCSS/CSS
+Практика_Демо,
+Gulp, настройка gulpfile.js
+HTML,
+SCSS/CSS,
 Grid,Gradient,Border
